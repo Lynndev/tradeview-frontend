@@ -1,0 +1,9 @@
+.post_list{
+    h3{
+        cursor: pointer;
+        &:hover{
+            color: #663232;
+        }
+    }
+
+}

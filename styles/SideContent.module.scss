@@ -1,0 +1,16 @@
+.stock{
+    margin:20px 0px;
+    .stock_item{
+        display: flex;
+        justify-content: space-between;
+        p{
+            margin-bottom: 0px;
+        }
+        .company_desc{
+            font-size: 13px;
+            color: #696969;
+        }
+    }
+  
+   
+}

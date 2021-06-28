@@ -1,0 +1,27 @@
+.post_detail{
+    &_badge{
+        background-color: orange;
+        padding: 3px 10px;
+        color: #fff;
+        border-radius: 30px;
+        font-size: 14px;
+    }
+    &_image{
+        margin:20px 10px !important;
+        background-size: cover;
+    }
+    &_noti_btn{
+        padding-left: 20px;
+         .icon{
+             display:inline-block;
+             vertical-align: 3px;
+             font-size: 20px;
+             margin-right: 7px;
+         }
+         span{
+             display:inline-block;
+             vertical-align: 5px;
+             font-size: 20px;
+         }
+    }
+}

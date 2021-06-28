@@ -1,0 +1,14 @@
+@import "./variable";
+
+.nav{
+    border-bottom: 1px solid rgba(175, 174, 174, 0.486);
+   
+    @at-root #{&}_head{
+            margin-left:20px;
+            letter-spacing: 1px;
+            color:$primary !important;
+        }
+    a{
+        text-decoration: none !important;
+    }
+}
